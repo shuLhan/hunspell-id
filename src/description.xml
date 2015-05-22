@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <version value="2.0" />
+    <identifier value="KamusBahasaIndonesia" />
+    <display-name>
+        <name lang="id">Kamus dan pemenggal kata bahasa Indonesia</name>
+    </display-name>
+    <platform value="all" />
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.2" d:name="OpenOffice.org 3.2" />
+    </dependencies>
+    <icon>
+        <default xlink:href="bendera.jpg" />
+    </icon>
+    <publisher>
+        <name lang="id">Benitius Brevoort OFMCap</name>
+    </publisher>
+    <extension-description>
+	<src xlink:href="info/short-description.txt" lang="id" />
+    </extension-description>
+    <extension-long-description>
+	<src xlink:href="info/long-description.txt" lang="id" />
+    </extension-long-description>
+
+</description>
+
