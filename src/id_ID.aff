@@ -372,7 +372,7 @@ PFX P0 0 peng  	k[hlr]
 PFX P1 Y 13	# pe-
 PFX P1 0 pe/A1    [lmnryw]
 PFX P1 0 pem/A1   [bfv]
-PFX P1 p pem/A1   p[^l^r]
+PFX P1 p pem/A1   p[^l]
 PFX P1 0 pem/A1   p[lr]
 PFX P1 0 pen/A1   [cdjz]
 PFX P1 t pen/A1   t[^r]
