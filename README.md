@@ -23,7 +23,20 @@ $ ./build.sh
 * Skrip tersebut akan menghasilkan berkas `hunspell-id.oxt` di direktori sekarang.
 * Buka pengatur berkas, dan klik dua kali pada berkas `hunspell-id.oxt` tersebut, maka nanti layanan pemasangan ekstensi LibreOffice akan muncul.
 
-## Paket Linux
+# Pemasangan
+
+## Sistem Operasi GNU/Linux
+
+* Login sebagai root
+* Buat `symlink` dari hasil ekstraksi ke folder sistem hunspell anda. Contoh,
+```
+$ cd /usr/share/hunspell
+$ ln -s ~/Downloads/hunspell-di/src/id_ID.aff
+$ ln -s ~/Downloads/hunspell-di/src/id_ID.dic
+```
+* atau buat salinan langsung.
+
+## Paket GNU/Linux
 
 * Arch Linux: TODO
 
