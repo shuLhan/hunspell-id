@@ -31,8 +31,8 @@ $ ./build.sh
 * Buat `symlink` dari hasil ekstraksi ke folder sistem hunspell anda. Contoh,
 ```
 $ cd /usr/share/hunspell
-$ ln -s ~/Downloads/hunspell-di/src/id_ID.aff
-$ ln -s ~/Downloads/hunspell-di/src/id_ID.dic
+$ ln -s ~/Downloads/hunspell-di/id_ID.aff
+$ ln -s ~/Downloads/hunspell-di/id_ID.dic
 ```
 * atau buat salinan langsung.
 
