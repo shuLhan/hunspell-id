@@ -38,7 +38,7 @@ $ ln -s ~/Downloads/hunspell-di/id_ID.dic
 
 ## Paket GNU/Linux
 
-* Arch Linux: TODO
+* Arch Linux: https://aur.archlinux.org/packages/hunspell-id-git/
 
 # Kredit
 
