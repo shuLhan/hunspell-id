@@ -39,6 +39,7 @@ $ ln -s ~/Downloads/hunspell-di/id_ID.dic
 ## Paket GNU/Linux
 
 * Arch Linux: https://aur.archlinux.org/packages/hunspell-id-git/
+* Solus: `sudo eopkg it hunspell-id`
 
 # Kredit
 
