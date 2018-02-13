@@ -1,0 +1,17 @@
+Source: hunspell-id
+Section: text
+Priority: optional
+Maintainer: Andika Triwidada <andika@gmail.com>
+Build-Depends: debhelper (>= 5), dictionaries-common-dev
+Standards-Version: 3.7.2
+
+Package: hunspell-id
+Architecture: all
+Replaces: openoffice.org-spellcheck-id
+Provides: hunspell-dictionary, hunspell-dictionary-id
+Depends: dictionaries-common (>= 0.10)
+Suggests: hunspell, openoffice.org-hunspell | openoffice.org-core (>= 2.0.2)
+Conflicts: openoffice.org (<= 1.0.3-2), myspell-en-us (<= 1:4.2.1-0ubuntu3), mozilla-browser (<< 1.8+1.1.1-2), iceape-browser (<< 1.1.1-2), firefox (<< 2.0.0.3-2), thunderbird (<< 2.0.0.1+0dfsg-0), iceweasel (<< 2.0.0.3-2), icedove (<< 2.0.0.0-4), openoffice.org-core (<< 2.1~m190-1), libxul0d (= 1.8.0.11-3)
+Description: Indonesian dictionary for hunspell
+ This is the Indonesian dictionary for use with the hunspell spellchecker
+
