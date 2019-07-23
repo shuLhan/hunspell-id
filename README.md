@@ -39,6 +39,13 @@ $ ln -s ~/Downloads/hunspell-di/id_ID.dic
 * Arch Linux: https://aur.archlinux.org/packages/hunspell-id-git/
 * Solus: `sudo eopkg it hunspell-id`
 
+
+## Vim
+
+Buat direktori `$HOME/.vim/spell`, kemudian salin atau buat _symlink_ dari
+berkas `vim/id.utf-8.spl` ke dalam direktori tersebut.
+
+
 # Kredit
 * Benitius Brevoort
 * Viko Adi Rahmawan
