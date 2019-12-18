@@ -38,8 +38,10 @@ SET ISO8859-1
 TRY aeinrstkumlgopbdhjcyfwzqvxAEINRSTKUMLGOPBDHJCYFWZQVX
 WORDCHARS -
 FLAG long
-CIRCUMFIX A1 	# untuk bentuk awalan-akhiran terikat (ber-an)
-NEEDAFFIX A2	# jenis membesituakan (jangan besitua tersendiri)
+# untuk bentuk awalan-akhiran terikat (ber-an)
+CIRCUMFIX A1
+# jenis membesituakan (jangan besitua tersendiri)
+NEEDAFFIX A2
 
 # Berikut PREFIX dan SIRKUMFIKS
 
