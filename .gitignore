@@ -1,5 +1,6 @@
 ## SPDX-FileCopyrightText: 2015 hunspell-id Authors
 ## SPDX-License-Identifier: LGPL-3.0-only
+*.html
 hunspell-id.oxt
 vim/.utf-8.spl
 vim/en.utf-8.add

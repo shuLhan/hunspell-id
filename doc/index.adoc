@@ -1,0 +1,17 @@
+// SPDX-FileCopyrightText: 2022 M. Shulhan <ms@kilabit.info>
+// SPDX-License-Identifier: LGPL-3.0-only
+= hunspell-id
+
+==  Documentation
+
+link:README.html[README^]:: Documentation about the project and development.
+
+link:CHANGELOG.html[CHANGELOG^]:: History of changes on each release.
+
+==  Development
+
+https://github.com/shuLhan/hunspell-id[Repository^]::
+Link to the source code.
+
+https://github.com/shuLhan/hunspell-id/issues[Issues^]::
+Link to open an issue or request for new feature.

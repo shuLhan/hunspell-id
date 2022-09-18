@@ -1,0 +1,214 @@
+// SPDX-FileCopyrightText: 2022 M. Shulhan <ms@kilabit.info>
+// SPDX-License-Identifier: LGPL-3.0-only
+= hunspell-id Change log
+:toc:
+
+[#v2_2_0]
+== Release v2.2.0 (2020-03-03)
+
+[#v2_2_0_peningkatan_kamus]
+=== Peningkatan kamus
+
+dic: pembaruan semua daftar kata ke versi KBBI Oktober 2019::
+Daftar kata terakhir diambil yaitu 2 Maret 2020.
+
+Kata dasar baru,
+
+* binari
+* direktori
+* ekspektasi: (n) pengharapan
+* fitur
+* independen:
+** (a) yang berdiri sendiri; yang berjiwa bebas
+** (a) tidak terikat; merdeka; bebas
+* individu
+* influen
+* instruksi
+* jejaring:
+** (n) jaring-jaring; jaringan (komunikasi)
+** (n Komp) sistem komputer terminal dan pangkalan data yang dihubungkan
+   dengan saluran telekomunikasi untuk pertukaran data; jaringan
+* karakter
+* karakteristik
+* kueri
+* kustomisasi
+* milis
+* minimalis
+* optimasi
+* peladen:
+** (n) orang yang meladeni; pelayan
+** (n Komp) komputer dalam jejaring yang berfungsi sebagai penyedia
+   layanan ke komputer lain
+* peramban
+* piksel
+* portabilitas
+* replikasi
+* repositori
+* reset
+* rinci
+* server: (n) peladen
+* surel
+* templat: (n) format (ukuran, pola, dan sebagainya) yang diacu dalam
+  pembuatan sesuatu
+
+Imbuhan baru,
+
+* abstraksi: di--kan
+* acu: di-
+* akhir: di-
+* analisis: -nya
+* argumen: -nya
+* autentikasi: di-
+* baru: ter--kan
+* bulat: di--kan
+* definisi: ter-, -kan
+* deklarasi: di--kan, pen-, pen--an
+* dekode: di-, men-, pen-
+* dekompresi: di-, me-
+* dependensi: -nya
+* efek: -nya
+* eja: di-
+* eksekusi: di-
+* eksekusi: meng-
+* eksperimen: ber-
+* ekspose: di-, meng-, -nya
+* ekspresi: -nya
+* ekspresi: di--kan
+* elemen: -nya
+* fakta: -nya
+* format: mem-, -nya
+* gabung: di-
+* guna:-nya
+* hubung: ter-
+* ideal: -nya
+* identifikasi: meng-
+* identifikasi: meng--kan, peng-, ter-
+* implemen: di-
+* implementasi: di-, di--kan, peng-, -nya
+* impor: di-
+* indeks: peng--an
+* inisiasi: di-
+* inisiasi: meng-
+* inspeksi: di-
+* integrasi: di--kan
+* interpretasi: di-
+* iring: se-
+* iterasi: di-, meng-
+* jadwal: pen-
+* jalan: -nya
+* kapasitas:-nya
+* karakteristik: -nya
+* kategorisasi: meng-
+* kembang: -kan
+* kenal: memper--kan
+* kompensasi: di-, meng-
+* kompilasi: ber-, meng-, peng-
+* kompilasi: di-, contoh: sumber kode -- dengan
+* komposisi: meng-
+* kompres: di-, meng-
+* komputasi: di-, meng-
+* konstruksi: di-, meng-
+* konsumsi: di-
+* kontribusi: ber-
+* konversi: -nya
+* koreksi: di-
+* kunci: peng--an
+* lacak: di-
+* lantun: pe-
+* lipat ganda: -kan
+* lokasi: -nya
+* mampat: pe--an
+* migrasi: me-, contoh: saya -- data
+* model: pe--an, per--an
+* monitor: di-
+* normalisasi: di-, me-
+* pasti: -kan
+* pecah: di-
+* perilaku: -nya
+* pola: -nya
+* prediksi: di-
+* program: -nya
+* promosi: di--kan
+* proses: -nya
+* rata: pe--an
+* register: di-
+* reproduksi: di-, contoh: langkah-langkah yang dapat --
+* rilis: me-, contoh: band itu -- album pertamanya
+* senandung: di--kan
+* spesifikasi: di--kan, men--kan
+* struktur: -nya
+* tampil: -an
+* tingkat: -kan
+* tipe: ber-, -nya
+* unduh: di-, peng-, ter-, -an
+* unggah: di-, meng-
+* urai: meng-
+* urut: se--an
+* verifikasi: di-
+* visualisasi: di--kan
+
+[#v2_2_0_perubahan_lainnya]
+=== Perubahan lainnya
+
+aur: paket untuk pengguna Arch Linux::
+
+aff: move the comment to the top in CIRCUMFIX and NEEDAFFIX::
++
+--
+On Lucene, the parser for affix file does not allow inline comment in
+the options, for example "OPT <arg> # comment".
+
+Fix #6.
+--
+
+id_ID.aff: tambah dot "." untuk sintaks prefiks dan sufiks tanpa kondisi::
+
+vim: berkas spell untuk vim::
++
+--
+Berkas ini dibuat dengan menggunkan perintah mkspell [1],
+
+	:mkspell ~/.vim/spell/id ~/src/github.com/shuLhan/hunspell-id/id_ID
+
+Untuk menggunakannya, buat direktori $HOME/.vim/spell, kemudian salin
+atau buat tautan dari berkas tersebut ke dalam direktori itu.
+
+[1] http://vimdoc.sourceforge.net/htmldoc/spell.html#:mkspell
+--
+
+id_ID.dic: hapus beberapa kata ganda dan urutkan berdasarkan abjad::
+
+Add Ubuntu packaging::
+
+Tambah cara memasang paket di Solus::
+
+
+[#v2_1_0]
+== Release v2.1.0 (2015-05-24)
+
+[#v2_1_0_peningkatan_kamus]
+=== Peningkatan kamus
+
+Kata dasar baru:
+
+* daring
+* Jawa
+* konten
+* unggah
+
+Imbuhan baru,
+
+* lulus: ke--an
+
+[#v2_1_0_perubahan_lainnya]
+=== Perubahan lainnya
+
+Pindahkan berkas id_ID ke root direktori::
+
+Ganti nama direktori 'src' menjadi 'libreoffice-extension'::
+
+Penambahan cara pemasangan di Linux::
+
+Perbaikan prefiks untuk awalan pe- yang melebur jadi pem- bila diawali p::
+Sebelumnya kata dengan dua konsonan 'pr' tidak dilebur.
+Contoh: pemrograman, bukan pemprograman.
