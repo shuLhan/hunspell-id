@@ -1,0 +1,28 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: hunspell-id
+Upstream-Contact: Shulhan <ms@kilabit.info>
+Source: https://github.com/shuLhan/hunspell-id
+
+Files: .gitmodules
+Copyright: 2020 M. Shulhan <ms@kilabit.info>
+License: LGPL-3.0-only
+
+Files: AUR/*
+Copyright: 2022 M. Shulhan <ms@kilabit.info>
+License: LGPL-3.0-only
+
+Files: debian/*
+Copyright: hunspell-id Authors
+License: LGPL-3.0-only
+
+Files: id_ID.dic
+Copyright: hunspell-id Authors
+License: LGPL-3.0-only
+
+Files: libreoffice-extension/*
+Copyright: hunspell-id Authors
+License: LGPL-3.0-only
+
+Files: vim/*
+Copyright: 2019 M. Shulhan <ms@kilabit.info>
+License: LGPL-3.0-only

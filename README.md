@@ -86,3 +86,6 @@ Berkas hyphenator tidak mengalami perubahan.
 * Arno Brevoort
 * Volker Mueller
 * Kurniadi
+
+// SPDX-FileCopyrightText: 2015 hunspell-id Authors
+// SPDX-License-Identifier: LGPL-3.0-only
