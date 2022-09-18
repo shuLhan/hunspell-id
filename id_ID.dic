@@ -11741,7 +11741,7 @@ detas/B0
 detasemen
 detasering
 detasir/M0
-deteksi/D0M0PaT0
+deteksi/D0M0P0PaT0
 detektif
 detektofon
 detektor
@@ -12060,6 +12060,7 @@ direk
 direksi
 direksional
 direksionalitas
+direktif
 direktorat
 direktori
 direktorium
@@ -13006,7 +13007,7 @@ ekstra
 ekstra-
 ekstradisi
 ekstrafusal
-ekstrak/M0
+ekstrak/D0M0
 ekstrakardial
 ekstraksi/M0P0
 ekstraktif
@@ -18572,7 +18573,7 @@ inhomogenitas
 ini/l0
 ining-ining
 inisial/B0
-inisialisasi
+inisialisasi/D0M0
 inisiasi/D0M0Mk
 inisiatif/B0
 inisiator
@@ -43132,6 +43133,7 @@ tekpi
 teks/n0
 tekstil/Ra
 tekstur/B0
+tekstual
 tekstural
 tekte
 tektek
