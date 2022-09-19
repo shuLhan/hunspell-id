@@ -19,7 +19,19 @@ Files: id_ID.dic
 Copyright: hunspell-id Authors
 License: LGPL-3.0-only
 
-Files: libreoffice-extension/*
+Files: libreoffice-extension/th_id_ID_v2.dat
+       libreoffice-extension/README-thes
+Copyright: Copyright (C) 2008 Pusat Bahasa Departemen Pendidikan Nasional RI
+           Copyright (C) 2017 Ali Ahmadi <idnux09@gmail.com>
+License: LGPL-2.1-only
+
+Files: libreoffice-extension/bendera.jpg
+       libreoffice-extension/description.xml
+       libreoffice-extension/dictionaries.xcu
+       libreoffice-extension/hyph_id_ID.dic
+       libreoffice-extension/META-INF/manifest.xml
+       libreoffice-extension/README-dict.md
+       libreoffice-extension/info/*
 Copyright: hunspell-id Authors
 License: LGPL-3.0-only
 
