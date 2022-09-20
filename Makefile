@@ -22,7 +22,11 @@ install:
 ##
 ##	$ sudo make DESTDIR=/ uninstall
 uninstall:
+	rm -f $(DESTDIR)/usr/share/vim/vimfiles/spell/id.utf-8.spl
+	rm -f $(DESTDIR)/usr/share/myspell/dicts/id_ID.aff
+	rm -f $(DESTDIR)/usr/share/myspell/dicts/id_ID.dic
 	rm -f $(DESTDIR)/usr/share/hunspell/id_ID.aff
+	rm -f $(DESTDIR)/usr/share/hunspell/id_ID.dic
 
 serve-doc:
 	ciigo serve doc
