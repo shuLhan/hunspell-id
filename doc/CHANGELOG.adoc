@@ -2,6 +2,74 @@
 // SPDX-License-Identifier: LGPL-3.0-only
 = hunspell-id Change log
 :toc:
+:sectanchors:
+:sectlinks:
+
+[#v2_3_0]
+== Release v2.3.0 (2022-09-21)
+
+[#v2_3_0_peningkatan_kamus]
+=== Peningkatan kamus
+
+Kata dasar baru,
+
+* direktif
+* tekstual
+
+Imbuhan baru,
+
+* deteksi: pen-
+* ekstrak: di-
+* inisialisasi: di-, meng-
+
+[#v2_3_0_perubahan_lainnya]
+=== Perubahan lainnya
+
+all: pembaruan README::
++
+--
+Perbaikan kalimat dan struktur supaya lebih mudah dibaca.
+Selain itu, tambah seksi Lisensi berikut nama kontributor yang tercatat
+dalam git.
+--
+
+all: perbaikan jumlah kata pada id_ID.dic::
++
+Baris terakhir bukanlah kata dasar, kemungkinan kesalahan pada suntingan
+atau penyalinan.
+
+libreoffice-extension: pembaruan dengan upstream::
++
+--
+Berkas libreoffice dictionaries terbaru diambil dari
+https://git.libreoffice.org/dictionaries/.
+Untuk beberapa berkas menggunakan lisensi LGPL-2.1-only.
+--
+
+all: tambah perintah install dan uninstall dalam Makefile::
++
+Perintah install dan uninstall digunakan untuk memasang program dalam
+sistem operasi berbasis POSIX.
+
+all: gabungkan semua berkas dokumentasi ke dalam direktori doc::
++
+--
+Catatan perubahan:
+
+* Format README diganti dari Markdown ke Asciidoc
+* Catat sejarah perubahan pada rilis sebelumnya dalam berkas
+  CHANGELOG.adoc
+* Makefile: tambah perintah untuk melihat dokumentasi menggunakan ciigo
+--
+
+all: ubah format lisensi menggunakan SPDX::
++
+--
+Format lisensi SPDX ini standar dan lebih mudah digunakan untuk setiap
+berkas baru.
+Untuk informasi lebih lanjut lihat https://spdx.dev
+--
+
 
 [#v2_2_0]
 == Release v2.2.0 (2020-03-03)
