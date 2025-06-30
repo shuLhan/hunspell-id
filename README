@@ -98,6 +98,18 @@ Berkas .dic (daftar kata) diperiksa dengan semua lemma dari Kamus Besar Bahasa
 Indonesia, edisi 3.
 Berkas hyphenator tidak mengalami perubahan.
 
+
+== Pengembangan
+
+https://kilabit.info/project/hunspell-id/CHANGELOG.html[CHANGELOG^]::
+Riwayat perubahan dari setiap rilis.
+
+https://github.com/shuLhan/hunspell-id[Repository^]:: Tautan ke sumber kode.
+
+https://github.com/shuLhan/hunspell-id/issues[Issues^]:: Tautan ke halaman
+pelaporan isu atau permintaan fitur baru.
+
+
 == Lisensi
 
 ----
